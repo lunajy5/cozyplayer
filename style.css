@@ -1,0 +1,67 @@
+/* 전체 배경 설정 */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e7fadb; 
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* 플레이어 전체 영역 */
+  .player {
+    background-color: #fff;
+    border: 2px solid #aee6b8;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  /* GIF 이미지 */
+  #gif {
+    width: 200px;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 0px;
+  }
+  
+  /* 버튼 묶음 */
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 2px;
+  }
+  
+  /* 버튼 스타일 */
+  button {
+    background-color: #aee6b8;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color:#6db97e;
+  }
+
+  @font-face {
+    font-family: 'pdhfont';
+    src: url('fonts/pdhfont.ttf') format('truetype');
+  }
+  
+  #track-title {
+    font-family: 'pdhfont';
+    font-size: 1.2rem;
+    margin-top: 2px;
+    display: block;
+    text-align: center;
+    color: #555;
+  }
+  

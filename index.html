@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🤍 cozy P</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="player">
+    <img id="gif" src="singing.GIF" alt="Your artwork" />
+    <span id="track-title"></span>
+    <div class="controls">
+     <audio id="audioPlayer" preload="auto"></audio>
+     <button id="previousBtn" onclick="playPrevious()">⏮️</button>
+     <button id="playPauseBtn" onclick="togglePlay()">▶️</button>
+     <button id="nextBtn" onclick="playNext()">⏭️</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
